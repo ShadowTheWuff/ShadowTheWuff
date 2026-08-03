@@ -96,3 +96,9 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.PLUGIN_WAKATIME_TOKEN }}
+          
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 32996776
+          plugin_stackoverflow_sections: answers-top
+          plugin_stackoverflow_limit: 2
+
